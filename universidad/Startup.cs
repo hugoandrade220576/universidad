@@ -12,6 +12,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using universidad.Data;
+using universidad.Repository;
+using universidad.Repository.IRepository;
+using universidad.universidadMapper;
 
 namespace universidad
 {
@@ -28,7 +31,10 @@ namespace universidad
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(Options => Options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<IestudianteRepository, EstudianteRepository>();
+            services.AddAutoMapper(typeof(UniversidadMappers));
             services.AddControllers();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -5,13 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\20210811202434_Migracionuno.cs" />
-    <Compile Remove="Migrations\20210811202434_Migracionuno.Designer.cs" />
-    <Compile Remove="Migrations\20210811202700_Migracionuno.cs" />
-    <Compile Remove="Migrations\20210811202700_Migracionuno.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210811202434_Migracionuno.cs" />
+    <Compile Remove="Data\Migrations\20210811202434_Migracionuno.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210811202700_Migracionuno.cs" />
+    <Compile Remove="Data\Migrations\20210811202700_Migracionuno.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.7">

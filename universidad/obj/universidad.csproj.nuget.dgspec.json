@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Documents\\universidad-2\\universidad\\universidad\\universidad.csproj": {}
+    "C:\\Users\\Lenovo\\Desktop\\universidad\\universidad\\universidad.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Documents\\universidad-2\\universidad\\universidad\\universidad.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\universidad\\universidad\\universidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\universidad-2\\universidad\\universidad\\universidad.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\universidad\\universidad\\universidad.csproj",
         "projectName": "universidad",
-        "projectPath": "C:\\Users\\Lenovo\\Documents\\universidad-2\\universidad\\universidad\\universidad.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\universidad\\universidad\\universidad.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Documents\\universidad-2\\universidad\\universidad\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\universidad\\universidad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,6 +46,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.7, )"
